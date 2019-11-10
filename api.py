@@ -18,4 +18,4 @@ def sendHTMLFile():
 def sendPNGFile():
     return flask.current_app.send_static_file('catnose.png')
 
-app.run(port=9000)
+app.run()
